@@ -3,15 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro soma = 0
-	
-		para(inteiro i = 1; i <= 500; i++){
+		inteiro numero
+		
+		escreva("Insira um número, por favor: \n")
+		leia(numero)
 
-			se(i%2 !=0 e i%3 == 0){
-
-				escreva("valor de i ", i, "\n")
-				soma = soma + i
-				escreva("somatório ", soma, "\n \n")
+		enquanto (numero <= 100){
+			numero = numero * 3
+			escreva(numero, "\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 222; 
+ * @POSICAO-CURSOR = 57; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
